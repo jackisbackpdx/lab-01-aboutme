@@ -14,7 +14,7 @@
 body {
     background-color: darkolivegreen;
 }
-p {
+.aboutAnimal {
     color: white;
     width: 33%;
     font-size: 1.2em;
@@ -36,7 +36,8 @@ h2 {
     display: block;
     margin: 0 auto;
 }
-span {
+.result {
     text-align: center;
     margin: 0 auto;
+    justify: center;
 }

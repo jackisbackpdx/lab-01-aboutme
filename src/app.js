@@ -4,6 +4,8 @@ const test = document.getElementById('test');
 const result = document.getElementById('result');
 
 test.onclick = function() {
+    name = '';
+    const firstname = prompt('What\'s your first name?');
     let correctAnswers = 0;
     const answer1 = prompt('The green sturgeon reaches maturity at around 12 years of age (Y/N)');
     if(!isYes(answer1)) {
