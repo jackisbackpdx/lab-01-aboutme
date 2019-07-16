@@ -17,6 +17,6 @@ test.onclick = function() {
     if(isYes(answer3)) {
         correctAnswers += 1;
     }
-    result.textContent = `You got ${Math.floor((correctAnswers/3) * 100)}% test score!`;
+    result.textContent = `You got ${Math.floor((correctAnswers / 3) * 100)}% test score!`;
 };
     
