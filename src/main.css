@@ -1,0 +1,42 @@
+.article {
+    display: flex;
+    background-color: darkseagreen;
+    width: 100%;
+    align-items: center;
+    width: 720px;
+    margin-bottom: 20px;
+    height: 400px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+body {
+    background-color: darkolivegreen;
+}
+p {
+    color: white;
+    width: 33%;
+    font-size: 1.2em;
+    height: 200px;
+    width: 700px;
+}
+img {
+    display: flex;
+    margin-left: -10px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+#test {
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+}
+span {
+    text-align: center;
+    margin: 0 auto;
+}
