@@ -4,6 +4,11 @@ const test = document.getElementById('test');
 const result = document.getElementById('result');
 
 test.onclick = function() {
+    let name = '';
+    let firstName = prompt('What is your first name?');
+    name = name + firstName;
+    let lastName = prompt('What is your last name?');
+    name = name + ' ' + lastName;
     let correctAnswers = 0;
     const answer1 = prompt('The green sturgeon reaches maturity at around 12 years of age (Y/N)');
     if(!isYes(answer1)) {
@@ -17,6 +22,5 @@ test.onclick = function() {
     if(isYes(answer3)) {
         correctAnswers += 1;
     }
-    result.textContent = `You got ${Math.floor((correctAnswers / 3) * 100)}% test score!`;
+    result.textContent = `Your name is ${name}, and you got ${Math.floor((correctAnswers / 3) * 100)}% on your teset!`;
 };
-    
