@@ -4,16 +4,17 @@ const actualNumber = Math.floor(Math.random() * Math.floor(20));
 let guessValue = 0;
 const guessMore = document.getElementById('guessmore');
 const submitNumber = document.getElementById('submitnumber');
+const guessLeft = document.getElementById('guessesleft');
 
-submitNumber.addEventListener("click", function() {
-const numberInput = document.getElementById('numberinput');
-const number = numberInput.value;
+submitNumber.addEventListener('click', function() {
+    const numberInput = document.getElementById('numberinput');
+    const number = numberInput.value;
     if(number > actualNumber) {
         guessValue++;
-        guessCounter--
+        guessCounter--;
     } else if(number < actualNumber) {
         guessValue--;
-        guessCounter--
+        guessCounter--;
     } else {
         guessValue = 0;
     }
@@ -26,8 +27,8 @@ const number = numberInput.value;
         message.textContent = 'You Lose';
     } else if(guessCounter > 0 && guessCounter < 3) {
         message.textContent = 'Keep Guessing';
-        guessesleft.textContent = `You have ${guessCounter} guess(es) left`;
-    };
+        guessLeft.textContent = `You have ${guessCounter} guess(es) left`;
+    }
 
 // Based off of the guessValue variable, which is assigned a value based off of whether or not the user's number was too high, too low, or just right, we create
 // Conditions for what happens when that number has a certain value.
