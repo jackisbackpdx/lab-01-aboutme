@@ -1,12 +1,23 @@
-let test = 0;
-let actualNumber = 0;
+const test = QUnit.test;
 
-const testFunction = function(test, actualNumber) {
-    if(test > actualNumber) {
-        return +1;
-    } else if (test < actualNumber) {
-        return -1;
-    } else {
-        return 0;
-    }
-};
+test('time to test a function', function(assert) {
+    //Arrange
+    // Set up your parameters and expectations
+
+    //Act 
+    // Call the function you're testing and set the result to a const
+
+    //Assert
+    assert.equal(true, false);
+});const test = QUnit.test;
+
+test('time to test a function', function(assert) {
+    //Arrange
+    // Set up your parameters and expectations
+
+    //Act 
+    // Call the function you're testing and set the result to a const
+
+    //Assert
+    assert.equal(true, false);
+});
