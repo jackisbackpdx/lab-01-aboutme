@@ -1,0 +1,30 @@
+input {
+    display: none;
+}
+
+p img {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+body {
+    display: flex;
+    justify-content: space-around;
+}
+body button {
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 40%;
+}
+#paperimage {
+    margin-top: 75px;
+    height: 150px; 
+}
+header {
+    margin: 0 auto;
+    justify: center;
+}
+.invisible   {
+    visibility: hidden;
+}

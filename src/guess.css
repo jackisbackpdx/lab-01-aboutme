@@ -9,12 +9,12 @@ section {
     background-color: #f6d8ac;
     width: 35%;
     margin: 0 auto;
-    height: 10%;
+    height: 15%;
     padding: 10px;
 }
 .outside {
    background-color: #db9833;
    width: 50%;
    margin: 0 auto;
-   box-shadow: #000000 3px 5px;
+   box-shadow: #000000 3px 5px 3px;
 }
