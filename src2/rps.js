@@ -1,4 +1,8 @@
+import getThrow from './computerChoice';
+
 const throwButton = document.getElementById('throwbutton');
+
+
 const winCount = document.getElementById('win-count');
 const lossCount = document.getElementById('loss-count');
 const tiesCount = document.getElementById('ties-count');
@@ -8,21 +12,12 @@ const addMessage = document.getElementById('message');
 let wins = 0;
 let losses = 0;
 let ties = 0;
-let computerChoice = ' ';
-let randomValue = 0;
 
-let message = ''
+let message = '';
 // throw rock, paper, or scissors, based off random number. Function onclick of a random number.
 
 throwButton.addEventListener('click', () => {
-    randomValue = Math.floor(Math.random() * 3);
-    if(randomValue === 0) {
-        computerChoice = 'rock';
-    } else if(randomValue === 1) {
-        computerChoice = 'paper';
-    } else {
-        computerChoice = 'scissors';
-    }
+    const computerChoice = getThrow();
     const userChoice = document.querySelector('input:checked').value;
 
     if(userChoice === 'rock' && computerChoice === 'scissors') {

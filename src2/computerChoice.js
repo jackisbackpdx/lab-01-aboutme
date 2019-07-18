@@ -1,18 +1,22 @@
 
 export function getThrowFromNumber(number) {
-
+    if(number === 0) {
+        return 'rock';
+    } else if(number === 1) {
+        return 'paper';
+    } else {
+        return 'scissors';
+    }
 }
 
 
 
 
 
-randomValue = Math.floor(Math.random() * 3);
-    if(randomValue === 0) {
-        computerChoice = 'rock';
-    } else if(randomValue === 1) {
-        computerChoice = 'paper';
-    } else {
-        computerChoice = 'scissors';
-    }
+
+export default function getThrow() {
+    const randomValue = Math.floor(Math.random() * 3);    
+    const result = getThrowFromNumber(randomValue);
+    return result;
+}
 
