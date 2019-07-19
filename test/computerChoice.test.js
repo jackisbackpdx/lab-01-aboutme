@@ -24,7 +24,7 @@ test('returns rock when given the number 0', function(assert) {
     // Call the function you're testing and set the result to a const
 
     //Assert
-    assert.equal(result, expected);
+    assert.eimport getThrow from './computerChoice.js';qual(result, expected);
 });
 
 test('returns paper when given the number 1', function(assert) {
