@@ -9,11 +9,6 @@ export function getThrowFromNumber(number) {
     }
 }
 
-
-
-
-
-
 export default function getThrow() {
     const randomValue = Math.floor(Math.random() * 3);    
     const result = getThrowFromNumber(randomValue);

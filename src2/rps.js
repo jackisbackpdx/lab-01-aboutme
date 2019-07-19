@@ -2,7 +2,6 @@ import getThrow from './computerChoice';
 
 const throwButton = document.getElementById('throwbutton');
 
-
 const winCount = document.getElementById('win-count');
 const lossCount = document.getElementById('loss-count');
 const tiesCount = document.getElementById('ties-count');
