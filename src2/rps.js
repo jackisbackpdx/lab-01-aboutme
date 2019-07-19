@@ -1,8 +1,8 @@
-import getThrow from './computerChoice';
+import getThrow from './computerChoice.js';
 
 const throwButton = document.getElementById('throwbutton');
 
-
+ 
 const winCount = document.getElementById('win-count');
 const lossCount = document.getElementById('loss-count');
 const tiesCount = document.getElementById('ties-count');
