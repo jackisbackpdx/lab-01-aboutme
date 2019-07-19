@@ -1,0 +1,20 @@
+body {
+    margin-top: auto;
+    margin-bottom: auto;
+    background: linear-gradient(#8ec3eb, #2a6592, #7e9a9a) fixed;
+    text-align: center;
+    margin-top: 20%;
+}
+section {
+    background-color: #f6d8ac;
+    width: 35%;
+    margin: 0 auto;
+    height: 15%;
+    padding: 10px;
+}
+.outside {
+   background-color: #db9833;
+   width: 50%;
+   margin: 0 auto;
+   box-shadow: #000000 3px 5px 3px;
+}
