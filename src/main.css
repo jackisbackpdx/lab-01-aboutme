@@ -4,12 +4,14 @@ body {
     background: linear-gradient(#8ec3eb, #2a6592, #7e9a9a) fixed;
     text-align: center;
     margin-top: 20%;
+    font-family: 'work sans', sans-serif;
 }
 section {
     background-color: #f6d8ac;
     width: 35%;
     margin: 0 auto;
-    height: 225px;
+    margin-top: -100px;
+    height: 275px;
     padding: 10px;
     
 }
@@ -17,12 +19,25 @@ section {
    background-color: #db9833;
    width: 50%;
    margin: 0 auto;
-   box-shadow: #000000 3px 5px;
+   margin-bottom: 100px;
+   box-shadow: #000000 10px 10px 20px;
+   border-radius: 5px;
 }
 #submitnumber {
     display: block;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 30px;
     background-color: #db9833;
     font-weight: bold;
+}
+#submitnumber:hover {
+    background-color: black;
+    color: #db9833;
+    transition: 1s;
+    width: 120px;
+    height: 40px;
+}
+h1:hover {
+    font-size: 24pt;
+    transition: 0.3s;
 }
