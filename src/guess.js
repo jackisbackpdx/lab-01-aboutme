@@ -25,9 +25,13 @@ submitNumber.addEventListener('click', function() {
     if(guessCounter === 0) {
         numberInput.disabled = true;
         message.textContent = 'You Lose';
+        guessLeft.textContent = `You have ${guessCounter} guesses left`
+    } else if(guessCounter === 1) {
+        message.textContent = 'Keep Guessing';
+        guessLeft.textContent = `You have ${guessCounter} guess left`;
     } else if(guessCounter > 0 && guessCounter < 3) {
         message.textContent = 'Keep Guessing';
-        guessLeft.textContent = `You have ${guessCounter} guess(es) left`;
+        guessLeft.textContent = `You have ${guessCounter} guesses left`;
     }
 
 // Based off of the guessValue variable, which is assigned a value based off of whether or not the user's number was too high, too low, or just right, we create
