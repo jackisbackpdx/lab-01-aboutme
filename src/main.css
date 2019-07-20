@@ -1,0 +1,66 @@
+.article {
+    display: flex;
+    background-color: darkseagreen;
+    width: 100%;
+    align-items: center;
+    width: 720px;
+    margin-bottom: 20px;
+    height: 400px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+body {
+    background-color: darkolivegreen;
+    font-family: 'Squada One', cursive;
+}
+.aboutAnimal {
+    color: white;
+    width: 33%;
+    font-size: 1.2em;
+    height: 200px;
+    width: 700px;
+    padding: 0px 10px 0px 10px;
+}
+img {
+    display: flex;
+    margin-left: -25px;
+    margin-bottom: 290px;
+    height: 125px;
+    width: 150px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+#test {
+    margin: 0 auto;
+    display: block;
+    background-color: darkseagreen;
+    color: black;
+    height: 40px;
+    width: 100px;
+}
+#test:hover {
+    background-color: #003366;
+    color: white;
+}
+#result {
+    text-align: center;
+}
+.lists {
+    background-color: #003366;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 20px;
+    width: 75%;
+    color: white;
+}
+.lists h3 {
+    color: beige;
+}
+body h1 {
+    font-size: 36pt;
+}
