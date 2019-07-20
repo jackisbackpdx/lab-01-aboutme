@@ -1,46 +1,31 @@
-.article {
-    display: flex;
-    background-color: darkseagreen;
-    width: 100%;
-    align-items: center;
-    width: 720px;
-    margin-bottom: 20px;
-    height: 400px;
-}
-.content {
-    display: flex;
-    flex-direction: column;
-}
 body {
-    background-color: darkolivegreen;
-}
-.aboutAnimal {
-    color: white;
-    width: 33%;
-    font-size: 1.1em;
-    height: 200px;
-    width: 700px;
-}
-img {
-    display: flex;
-    margin-left: -10px;
-    margin-bottom: 30px;
-    height: 150px;
-    width: 200px;
-}
-h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    background: linear-gradient(#8ec3eb, #2a6592, #7e9a9a) fixed;
     text-align: center;
+    margin-top: 20%;
 }
-h2 {
-    text-align: center;
-}
-#test {
+section {
+    background-color: #f6d8ac;
+    width: 35%;
     margin: 0 auto;
+    height: 225px;
+    padding: 10px;
+    
+}
+.outside {
+   background-color: #db9833;
+   width: 50%;
+   margin: 0 auto;
+   box-shadow: #000000 3px 5px;
+}
+#numberinput {
+    
+}
+#submitnumber {
     display: block;
     margin: 0 auto;
-}
-.result {
-    text-align: center;
-    margin: 0 auto;
-    justify: center;
+    margin-top: 10px;
+    background-color: #db9833;
+    font-weight: bold;
 }
