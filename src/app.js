@@ -4,10 +4,9 @@ const message = document.getElementById('message');
 const guessMore = document.getElementById('guessmore');
 const submitNumber = document.getElementById('submitnumber');
 const guessLeft = document.getElementById('guessesleft');
-const actualNumber = Math.floor(Math.random() * 21)
+const actualNumber = Math.floor(Math.random() * 21);
 
 submitNumber.addEventListener('click', function() {
-    console.log(actualNumber);
     const numberInput = document.getElementById('numberinput');
     const number = numberInput.value;
     if(number < 0 || number > 20) {

@@ -1,2 +1,2 @@
-import './guesttest.js'
-import 'test.js'
+import './test-function.js';
+import './tests.js';
