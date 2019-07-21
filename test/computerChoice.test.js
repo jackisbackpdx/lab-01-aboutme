@@ -1,4 +1,4 @@
-import { getThrowFromNumber } from '../src/tests.js/index.js';
+import { getThrowFromNumber } from '../src/tests.js';
 const test = QUnit.test;
 
 test('returns scissors when given the number 2', function(assert) {
