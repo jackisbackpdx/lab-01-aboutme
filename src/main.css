@@ -3,6 +3,10 @@ body {
     color: firebrick;
 }
 input {
+    display: block;
+    margin: 12px auto 0px auto;
+}
+section label input {
     display: none;
 }
 p img {
@@ -43,11 +47,11 @@ footer {
     font-size: .7em;
 }
 input:checked + .radio-image {
-    border: 5px double goldenrod;
+    border: 5px solid  goldenrod;
     border-radius: 10%;
 }
 .radio-image {
-    border: 5px double transparent;
+    border: 5px solid transparent;
     border-radius: 10%;
 }
 #message {
@@ -60,4 +64,15 @@ input:checked + .radio-image {
     font-weight: bold;
     height: 25px;
     margin: 20px 0 20px 0;
+}
+#bet {
+    display: block;
+    margin: 15px auto 20px auto;
+    border-radius: 40%;
+    background-color: goldenrod;
+    font-weight: bold;
+    height: 25px;
+}
+#amount {
+    text-align: center;
 }
