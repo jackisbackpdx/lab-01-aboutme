@@ -1,4 +1,4 @@
-import { getThrowFromNumber } from '../src2/computerChoice.js';
+import { getThrowFromNumber } from '../src/tests.js/index.js';
 const test = QUnit.test;
 
 test('returns scissors when given the number 2', function(assert) {
@@ -24,7 +24,7 @@ test('returns rock when given the number 0', function(assert) {
     // Call the function you're testing and set the result to a const
 
     //Assert
-    assert.eimport getThrow from './computerChoice.js';qual(result, expected);
+    assert.equal(result, expected);
 });
 
 test('returns paper when given the number 1', function(assert) {

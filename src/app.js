@@ -1,4 +1,4 @@
-import getThrow from './computerChoice.js';
+import getThrow from './tests.js';
 
 const throwButton = document.getElementById('throwbutton');
 
@@ -21,31 +21,31 @@ throwButton.addEventListener('click', () => {
     const userChoice = document.querySelector('input:checked').value;
 
     if(userChoice === 'rock' && computerChoice === 'scissors') {
-        message = 'you won!';
+        message = 'YOU WON!';
         wins++;
         winCount.textContent = wins;
     } else if(userChoice === 'rock' && computerChoice === 'paper') {
-        message = 'you lost!';
+        message = 'YOU LOST!';
         losses++;
         lossCount.textContent = losses;
     } else if(userChoice === 'paper' && computerChoice === 'rock') {
-        message = 'you won!';
+        message = 'YOU WON!';
         wins++;
         winCount.textContent = wins;
     } else if(userChoice === 'paper' && computerChoice === 'scissors') {
-        message = 'you lost!';
+        message = 'YOU LOST!';
         losses++;
         lossCount.textContent = losses;
     } else if(userChoice === 'scissors' && computerChoice === 'rock') {
-        message = 'you lost!';
+        message = 'YOU LOST!';
         losses++;
         lossCount.textContent = losses;
     } else if(userChoice === 'scissors' && computerChoice === 'paper') {
-        message = 'you won!';
+        message = 'YOU WON!';
         wins++;
         winCount.textContent = wins;
     } else {
-        message = 'it was a tie!';
+        message = 'IT WAS A TIE!';
         ties++;
         tiesCount.textContent = ties;
     }
