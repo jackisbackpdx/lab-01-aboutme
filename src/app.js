@@ -37,37 +37,37 @@ throwButton.addEventListener('click', () => {
     const userChoice = document.querySelector('input:checked').value;
 
     if(userChoice === 'rock' && computerChoice === 'scissors' && moneyRemaining > 0) {
-        message = `YOU WON ${currentBet}!`;
+        message = `YOU WON $${currentBet}!`;
         wins++;
         winCount.textContent = wins;
         moneyRemaining += currentBet;
         updateMoney.textContent = `YOU HAVE $${moneyRemaining} TO BET`;
     } else if(userChoice === 'rock' && computerChoice === 'paper' && moneyRemaining > 0) {
-        message = `YOU LOST ${currentBet}!`;
+        message = `YOU LOST $${currentBet}!`;
         losses++;
         lossCount.textContent = losses;
         moneyRemaining -= currentBet;
         updateMoney.textContent = `YOU HAVE $${moneyRemaining} TO BET`;
     } else if(userChoice === 'paper' && computerChoice === 'rock' && moneyRemaining > 0) {
-        message = `YOU WON ${currentBet}!`;
+        message = `YOU WON $${currentBet}!`;
         wins++;
         winCount.textContent = wins;
         moneyRemaining += currentBet;
         updateMoney.textContent = `YOU HAVE $${moneyRemaining} TO BET`;
     } else if(userChoice === 'paper' && computerChoice === 'scissors' && moneyRemaining > 0) {
-        message = `YOU LOST ${currentBet}!`;
+        message = `YOU LOST $${currentBet}!`;
         losses++;
         lossCount.textContent = losses;
         moneyRemaining -= currentBet;
         updateMoney.textContent = `YOU HAVE $${moneyRemaining} TO BET`;
     } else if(userChoice === 'scissors' && computerChoice === 'rock' && moneyRemaining > 0) {
-        message = `YOU LOST ${currentBet}!`;
+        message = `YOU LOST $${currentBet}!`;
         losses++;
         lossCount.textContent = losses;
         moneyRemaining -= currentBet;
         updateMoney.textContent = `YOU HAVE $${moneyRemaining} TO BET`;
     } else if(userChoice === 'scissors' && computerChoice === 'paper' && moneyRemaining > 0) {
-        message = `YOU WON ${currentBet}!`;
+        message = `YOU WON $${currentBet}!`;
         wins++;
         winCount.textContent = wins;
         moneyRemaining += currentBet;
