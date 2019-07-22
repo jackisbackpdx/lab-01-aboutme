@@ -1,3 +1,3 @@
 import './test-function.js';
-import './tests.js';
+import './test2.js';
 
