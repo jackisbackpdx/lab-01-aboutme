@@ -33,7 +33,7 @@ section {
 }
 #submitnumber:hover {
     background-color: black;
-    color: white;
+    color: rgb(245, 233, 233);
     transition: 1s;
     width: 120px;
     height: 40px;
