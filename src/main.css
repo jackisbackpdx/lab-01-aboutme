@@ -29,10 +29,11 @@ section {
     margin-top: 30px;
     background-color: #db9833;
     font-weight: bold;
+    cursor: pointer;
 }
 #submitnumber:hover {
     background-color: black;
-    color: #db9833;
+    color: white;
     transition: 1s;
     width: 120px;
     height: 40px;

@@ -16,3 +16,4 @@ test('too high or too low?', function(assert) {
     //Assert
     assert.equal(result, expected);
 });
+
