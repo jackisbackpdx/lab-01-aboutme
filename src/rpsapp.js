@@ -1,4 +1,4 @@
-import getThrow from './repstest.js';
+import getThrow from './rpstest.js';
 
 const throwButton = document.getElementById('throwbutton');
 
